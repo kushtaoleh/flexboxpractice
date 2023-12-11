@@ -12,8 +12,7 @@
     display: flex;
     justify-content: center;
 }
-.menu {
-    border: 2px solid #fff;  /* For debugging */
+.menu { 
     width: 900px;
     display: flex;
     justify-content: space-between;
@@ -80,7 +79,12 @@
     height: 200px;
     flex: 1;
 }
-
+.footer-three,
+.footer-one{
+    background: #5995DA;
+    flex: initial;
+    width: 300px;
+}
 
 
 
