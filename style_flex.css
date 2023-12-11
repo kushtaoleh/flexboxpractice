@@ -1,8 +1,8 @@
-*{
+*{ 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 .menu-container{
@@ -39,6 +39,46 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.photo-grid-container{
+    display: flex;
+    justify-content: center;
+}
+.photo-grid{
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.photo-grid-item{
+    border: 1px solid #fff;
+    width: 300px;
+    height: 300px;
+}
+.first-item{
+    order: 1;
+}
+.last-item{
+    order: -1;
+}
+
+.social,
+.subscribe{
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-item{
+    border: 1px solid #fff;
+    background: #D6E9FE;
+    height: 200px;
+    flex: 1;
 }
 
 
